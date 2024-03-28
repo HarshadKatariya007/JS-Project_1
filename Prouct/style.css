@@ -1,0 +1,53 @@
+
+ #Product_ui div
+{
+    width: 350px;
+    background-color: #f7f7f7;
+    border-radius: 6px;
+    transition: all 0.5s;
+    padding: 15px;
+    margin:20px;
+}
+#Product_ui img
+{
+    width: 100%;
+}
+
+#Product_ui div:hover
+{
+    box-shadow: 3px 3px 5px 5px rgba(172, 172, 172, 0.4);
+    cursor: pointer;
+} 
+
+.buy-now-btn,.add_cart_btn
+{
+    border: none;
+    padding:2px 5px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+.buy-now-btn:hover
+{
+    box-shadow: 0 0 5px 3px red;
+    transition: all 0.5s;
+}
+.add_cart_btn:hover
+{
+    box-shadow: 0 0 5px 3px red;
+    transition: all 0.5s;
+}
+#Product_ui .w-2
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    margin-left: 0;
+    background-color: none;
+}
+#Product_ui .w-2:hover
+{
+    box-shadow:none;
+}

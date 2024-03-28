@@ -1,0 +1,30 @@
+.nav-link
+{
+    transition: all 0.5s !important;
+}
+.bg-dark
+{
+    background-color: #000000 !important;
+}
+.nav-link:hover
+{
+    color: rgb(238, 255, 0) !important;
+    transition: all 0.5s;
+}
+
+.navbar-brand 
+{
+    padding:0 15px;
+    max-width:180px;
+}
+.navbar-nav .nav-item .nav-link 
+{
+    display: block;
+    padding: 20px 15px;
+}
+
+.shopping .nav-item a,i:hover
+{
+    color: rgb(238, 255, 0) !important;
+    transition: all 0.5s;
+}

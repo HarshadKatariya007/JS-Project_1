@@ -1,0 +1,22 @@
+.toast-close
+ {
+  color: #FFFFFF;
+  opacity:1;
+  font-size: 13px;
+  font-weight: 900;
+  line-height:10px;
+  text-align: center;
+}
+.toastify
+{
+  font-family: cursive;
+}
+.toastify button
+{
+  height:20px;
+  width:20px;
+  padding: 3px;
+  margin-left: 5px;
+  background-color: #FF0000;
+  border-radius: 100%;
+}
